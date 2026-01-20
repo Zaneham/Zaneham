@@ -51,6 +51,10 @@ Languages I Keep Alive Out of Spite: COBOL, JOVIAL, CMS-2, Coral 66, CHILL, MUMP
 Computers I Emulate: IBM System/360, Minuteman, Setun-70(POLIZ), Viking Lander
 ```
 
+## Stats Nobody Asked For
+
+![Zane's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zaneham&show_icons=true&theme=dark)
+
 ## Contact
 
 Based in New Zealand. GMT+12/13! So I'm already in your future. 
