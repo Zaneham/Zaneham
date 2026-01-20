@@ -46,10 +46,9 @@ Keeping scientific computing alive, one 50-year-old numerical library at a time:
 ## Tech Stack
 
 ```
-Languages I Actually Use: Python, C, Fortran, Java, Julia
-Languages I Keep Alive Out of Spite: COBOL, JOVIAL, CMS-2, Coral 66, CHILL, MUMPS, PL/I, HLASM
-Computers I Emulate: IBM System/360, Minuteman, Setun-70, Viking Lander
-Regrets: Several
+Languages I Actually Use: Python, C, Fortran, Java, Julia, Assembler (x86, Risc-V and HLASM)
+Languages I Keep Alive Out of Spite: COBOL, JOVIAL, CMS-2, Coral 66, CHILL, MUMPS, PL/I
+Computers I Emulate: IBM System/360, Minuteman, Setun-70(POLIZ), Viking Lander
 ```
 
 ## Stats Nobody Asked For
@@ -58,9 +57,9 @@ Regrets: Several
 
 ## Contact
 
-Based somewhere between New Zealand and the 1970s.
+Based in New Zealand. GMT+12/13! So I'm already in your future. 
 
-If you need an LSP for a language the Geneva Convention forgot to ban, I'm probably your person.
+zanehambly@gmail.com
 
 ---
 
