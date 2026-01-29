@@ -63,7 +63,8 @@ Computers I Emulate: IBM System/360, Voyager FDS, Minuteman, Setun-70, Viking La
 
 ## Stats Nobody Asked For
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zaneham&theme=github_dark)
+![Stats](https://github-readme-stats.vercel.app/api?username=Zaneham&show_icons=true&theme=dark&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaneham&layout=compact&theme=dark&hide_border=true)
 
 ## Contact
 
