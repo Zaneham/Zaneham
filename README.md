@@ -22,6 +22,7 @@ Because someone has to maintain IDE support for programming languages older than
 ### Transpilers and Compilers (Why Not)
 
 - **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler. Because someone asked "but can it run on modern hardware"
+- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler).** - A real Jovial Compiler, for the discerning military aviation enthusiast with opinions on memory safety.
 
 ### Emulators for Questionable Hardware
 
