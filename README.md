@@ -26,7 +26,7 @@ Because someone has to maintain IDE support for programming languages older than
 
 ### Emulators for Questionable Hardware
 
-- **[z390](https://github.com/z390development/z390)** - IBM Mainframe emulator (contributor). The 1960s called, they want their batch processing back
+- **[z390](https://github.com/z390development/z390)** - IBM Mainframe emulator (contributor). Come and enjoy the wonderful world of the mainframe
 - **[voyager-fds-emulator](https://github.com/Zaneham/voyager-fds-emulator)** - Voyager Flight Data Subsystem. The computer that's leaving the solar system
 - **[minuteman-computer-emulator](https://github.com/Zaneham/minuteman-computer-emulator)** - ICBM guidance computer. I'm probably on a list now
 - **[setun70-emulator](https://github.com/Zaneham/setun70-emulator)** - Soviet ternary computer. Because binary is for capitalists
