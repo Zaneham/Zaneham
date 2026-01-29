@@ -61,11 +61,6 @@ Languages I Keep Alive Out of Spite: COBOL, JOVIAL, CMS-2, CORAL 66, CHILL, MUMP
 Computers I Emulate: IBM System/360, Voyager FDS, Minuteman, Setun-70, Viking Lander
 ```
 
-## Stats Nobody Asked For
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Zaneham&show_icons=true&theme=dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaneham&layout=compact&theme=dark&hide_border=true)
-
 ## Contact
 
 Based in New Zealand. GMT+12/13. Already in your future.
