@@ -4,6 +4,8 @@ I'm Zane. I write software for computers that no longer exist, languages that pr
 
 Some of this works. Some of it is a work in progress. All of it is being built in public because waiting until things are "ready" is how projects die in private folders.
 
+The Projects below are in various states of completion and will be worked on from time to time. You're more than welcome to reach out if you use one something I've made and are encountering a problem. 
+
 ## What I Do (Allegedly)
 
 ### Language Server Protocols for Languages Your Nan Used
