@@ -22,10 +22,12 @@ Because someone has to maintain IDE support for programming languages older than
 - **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - Yes, MUMPS. Yes, it's real. Yes, your hospital probably runs on it
 - **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM mainframe security. Building in public. Does not work yet
 
-### Transpilers and Compilers (Why Not)
+### Compilers and Translators
 
+- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator. Written in assembly. Passes RISC-V committee compliance tests
+- **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants, chess programs from the original manuscripts
 - **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler. Because someone asked "but can it run on modern hardware"
-- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler).** - A real Jovial Compiler, for the discerning military aviation enthusiast with opinions on memory safety.
+- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - A real JOVIAL compiler, for the discerning military aviation enthusiast with opinions on memory safety
 
 ### Emulators for Questionable Hardware
 
@@ -46,21 +48,19 @@ Keeping scientific computing alive, one 50-year-old numerical library at a time:
 
 ### Historic Languages (Not Dead, Just Resting)
 
-- **[plankalkuel](https://github.com/Zaneham/plankalkuel)** - Zuse's 1948 programming language. Hipster computing before it was cool
+- **[plankalkul-ide](https://github.com/Zaneham/plankalkul-ide)** - VS Code extension for Plankalkül with 2D grid editor. [On the Marketplace](https://marketplace.visualstudio.com/items?itemName=zaneham.plankalkul)
+- **[plankalkuel](https://github.com/Zaneham/plankalkuel)** - Python interpreter for Plankalkül. The prototype that started this
 - **[flow-matic](https://github.com/Zaneham/flow-matic)** - Grace Hopper's business language. COBOL's mum, basically
-- **[zuse-chess-1942](https://github.com/Zaneham/zuse-chess-1942)** - Chess in Plankalkuel. Historically accurate existential dread included
 
 ### Other Bits
 
-- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator. Written in assembly. Passes RISC-V committee compliance tests.
-  Translates things.
 - **[wu](https://github.com/Zaneham/wu)** - Media forensics toolkit. For legal teams. Very serious
 - **[nistcobol85](https://github.com/Zaneham/nistcobol85)** - NIST COBOL 85 test suite. 11,000 test cases of pure joy
 
 ## Tech Stack
 
 ```
-Languages I Actually Use: Python, C, Fortran, Java, Julia, various Assemblers
+Languages I Actually Use: Python, C, OCaml, Fortran, Java, Julia, various Assemblers
 Languages I Keep Alive Out of Spite: COBOL, JOVIAL, CMS-2, CORAL 66, CHILL, MUMPS, PL/I, HAL/S
 Computers I Emulate: IBM System/360, Voyager FDS, Minuteman, Setun-70, Viking Lander
 ```
