@@ -52,7 +52,8 @@ Keeping scientific computing alive, one 50-year-old numerical library at a time:
 
 ### Other Bits
 
-- **[conway](https://github.com/Zaneham/conway)** - RISC-V and x86 binary translator. It translates things
+- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator. Written in assembly. Passes RISC-V committee compliance tests.
+  Translates things.
 - **[wu](https://github.com/Zaneham/wu)** - Media forensics toolkit. For legal teams. Very serious
 - **[nistcobol85](https://github.com/Zaneham/nistcobol85)** - NIST COBOL 85 test suite. 11,000 test cases of pure joy
 
