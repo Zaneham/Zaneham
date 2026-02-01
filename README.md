@@ -19,7 +19,7 @@ Because someone has to maintain IDE support for programming languages older than
 - **[cms2-lsp](https://github.com/Zaneham/cms2-lsp)** - US Navy's finest, now with autocomplete
 - **[coral66-lsp](https://github.com/Zaneham/coral66-lsp)** - British military computing, as God intended
 - **[chill-lsp](https://github.com/Zaneham/chill-lsp)** - ITU telecom standard. We are also pretty Chill
-- **[IBM-system-360-lsp]([https://github.com/Zaneham/IBM-system360-LSP])** - COBOL F, PL/I F, and HLASM for the discerning mainframe enthusiast
+- **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F, and HLASM for the discerning mainframe enthusiast
 - **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - Yes, MUMPS. Yes, it's real. Yes, your hospital probably runs on it
 - **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM mainframe security. In development
 
