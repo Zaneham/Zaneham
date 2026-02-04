@@ -78,4 +78,4 @@ Based in New Zealand. GMT+12/13. Already in your future.
 
 **zanehambly@gmail.com**
 
-Available for contract work, collaboration, or just to chat. Can help with legacy systems modernisation, compiler development, safety-critical systems, and the occasional impossible project.
+Available for contract work, collaboration, or just to chat. Can help with legacy systems modernisation, compiler development, safety-critical systems, and the occasional impossible project. Anyone got an internship lying around? 
