@@ -38,7 +38,7 @@ Because someone has to maintain IDE support for programming languages older than
 - **[setun70-emulator](https://github.com/Zaneham/setun70-emulator)** - Soviet ternary computer. Because binary is for capitalists
 - **[viking-marsrover-emulator](https://github.com/Zaneham/viking-marsrover-emulator)** - 1970s Mars lander. 40KB of RAM. Absolute unit
 
-### Fortran Modernisation (Not an Oxymoron)
+### Fortran Modernisation 
 
 Keeping scientific computing alive, one 50-year-old numerical library at a time:
 
