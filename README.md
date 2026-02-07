@@ -18,7 +18,7 @@ Upstream contributions to production compilers and runtimes:
   - [#14524](https://github.com/ocaml/ocaml/pull/14524) - Native `Iatomic_fetch_add` using s390x LAAG instruction
   - [#14515](https://github.com/ocaml/ocaml/pull/14515) - Intel CET/IBT support (`endbr64` landing pads)
   - [#14514](https://github.com/ocaml/ocaml/pull/14514) - s390x shared library initialisation fix
-- **[z390](https://github.com/z390development/z390)** - IBM mainframe assembler/emulator (core contributor). COBOL macro implementations (STRING, UNSTRING, SEARCH, SORT, MERGE, REPLACE), VSAM enhancements, and NIST test suite work
+- **[z390](https://github.com/z390development/z390)** - IBM mainframe assembler/emulator (core contributor). COBOL macro implementations (STRING, UNSTRING, SEARCH, SORT, MERGE, REPLACE) and NIST test suite work
 - **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan: binary-only data race detection using shadow memory and vector clocks. Because QEMU didn't have TSan and someone had to fix that
 
 ### Language Server Protocols for Languages Your Nan Used
