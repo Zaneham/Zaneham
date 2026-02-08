@@ -10,9 +10,9 @@ The projects below are in various states of completion and will be worked on fro
 
 ## What I Do (Allegedly)
 
-### Compiler Contributions
+### Compiler Contributions (As of writing)
 
-Upstream contributions to production compilers and runtimes:
+Upstream contributions to production compilers and runtimes- this is what I'm currently working on:
 
 - **[OCaml](https://github.com/ocaml/ocaml)** - Contributing to the native code compiler backend:
   - [#14524](https://github.com/ocaml/ocaml/pull/14524) - Native `Iatomic_fetch_add` using s390x LAAG instruction
