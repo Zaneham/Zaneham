@@ -1,6 +1,6 @@
 # G'day, Kia Ora, and... Hello
 
-I'm Zane. I work on compilers, emulators, and tooling. Sometimes for modern systems, sometimes for machines older than most democracies. Currently contributing to the OCaml native compiler and building a thread sanitiser for QEMU.
+I'm Zane. I work on compilers, emulators, and tooling. Sometimes for modern systems, sometimes for machines older than most countries. Currently contributing to the OCaml native compiler and building a thread sanitiser for QEMU.
 
 Some of this is preservation. Some of it is practical. All of it is built in public because waiting until things are "ready" is how projects die in private folders.
 
