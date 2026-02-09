@@ -1,88 +1,81 @@
-# G'day, Kia Ora, and... Hello
+# G'day, Kia Ora
 
-I'm Zane. I work on compilers, emulators, and tooling. Sometimes for modern systems, sometimes for machines older than most countries. Currently contributing to the OCaml native compiler and building a thread sanitiser for QEMU.
+I'm Zane. I work on compilers, emulators, and tooling for systems that range from current to older than most countries. Currently contributing to the OCaml native compiler and building a thread sanitiser for QEMU.
 
-Some of this is preservation. Some of it is practical. All of it is built in public because waiting until things are "ready" is how projects die in private folders.
-
-The projects below are in various states of completion and will be worked on from time to time. You're more than welcome to reach out if you use something I've made and are encountering a problem. Some projects are just 'as is' because no one will be updating the FLOW-MATIC standards anytime soon.
+Built in public. Some of this is preservation, some is practical.
 
 ---
 
-## What I Do (Allegedly)
+## Compiler Contributions
 
-### Compiler Contributions (As of writing)
+Upstream contributions to production compilers and runtimes:
 
-Upstream contributions to production compilers and runtimes- this is what I'm currently working on:
-
-- **[OCaml](https://github.com/ocaml/ocaml)** - Contributing to the native code compiler backend:
+- **[OCaml](https://github.com/ocaml/ocaml)** - Native code compiler backend:
   - [#14524](https://github.com/ocaml/ocaml/pull/14524) - Native `Iatomic_fetch_add` using s390x LAAG instruction
   - [#14515](https://github.com/ocaml/ocaml/pull/14515) - Intel CET/IBT support (`endbr64` landing pads)
   - [#14514](https://github.com/ocaml/ocaml/pull/14514) - s390x shared library initialisation fix
-- **[z390](https://github.com/z390development/z390)** - IBM mainframe assembler/emulator (core contributor). COBOL macro implementations (STRING, UNSTRING, SEARCH, SORT, MERGE, REPLACE) and NIST test suite work
-- **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan: binary-only data race detection using shadow memory and vector clocks. Because QEMU didn't have TSan and someone had to fix that
+- **[z390](https://github.com/z390development/z390)** - IBM mainframe assembler/emulator. COBOL macro implementations, VSAM enhancements, NIST test suite work
+- **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan: binary-only data race detection using shadow memory and vector clocks
 
-### Language Server Protocols for Languages Your Nan Used
+## Language Server Protocols
 
-Because someone has to maintain IDE support for programming languages older than most democracies:
+IDE support for legacy languages:
 
-- **[hals-lsp](https://github.com/Zaneham/hals-lsp)** - Space Shuttle programming, minus the shuttle
-- **[jovial-lsp](https://github.com/Zaneham/jovial-lsp)** - For when the US Air Force needs syntax highlighting
-- **[cms2-lsp](https://github.com/Zaneham/cms2-lsp)** - US Navy's finest, now with autocomplete
-- **[coral66-lsp](https://github.com/Zaneham/coral66-lsp)** - British military computing, as God intended
-- **[chill-lsp](https://github.com/Zaneham/chill-lsp)** - ITU telecom standard. We are also pretty Chill
-- **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F, and HLASM for the discerning mainframe enthusiast
-- **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - Yes, MUMPS. Yes, it's real. Yes, your hospital probably runs on it
-- **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM mainframe security. In development
+- **[hals-lsp](https://github.com/Zaneham/hals-lsp)** - HAL/S (Space Shuttle)
+- **[jovial-lsp](https://github.com/Zaneham/jovial-lsp)** - JOVIAL (US Air Force)
+- **[cms2-lsp](https://github.com/Zaneham/cms2-lsp)** - CMS-2 (US Navy)
+- **[coral66-lsp](https://github.com/Zaneham/coral66-lsp)** - CORAL 66 (British MoD)
+- **[chill-lsp](https://github.com/Zaneham/chill-lsp)** - CHILL (ITU telecom)
+- **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F, HLASM
+- **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - MUMPS. Your hospital probably runs on it
+- **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM RACF security. In development
 
-### Compilers and Translators
+## Compilers and Translators
 
-- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator. Written in assembly
-- **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants, chess programs from the original manuscripts
-- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler. The Space Shuttle programming language
-- **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler. Because someone asked "but can it run on modern hardware"
-- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C compliant JOVIAL compiler. Built from the original military specification
+- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator, written in assembly
+- **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants
+- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler
+- **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler
+- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C JOVIAL compiler, built from the original military spec
 - **[coral-66-compiler](https://github.com/Zaneham/Coral-66-Compiler-)** - Coral 66 compiler. Work in progress
 
-### Emulators for Questionable Hardware
+## Emulators
 
-- **[voyager-fds-emulator](https://github.com/Zaneham/voyager-fds-emulator)** - Voyager Flight Data Subsystem. The computer that's leaving the solar system
-- **[minuteman-computer-emulator](https://github.com/Zaneham/minuteman-computer-emulator)** - ICBM guidance computer. I'm probably on a list now
-- **[minuteman-assembler](https://github.com/Zaneham/minuteman-assembler)** - Assembler for the above. Because you need to program the thing somehow
-- **[setun70-emulator](https://github.com/Zaneham/setun70-emulator)** - Soviet ternary computer. Because binary is for capitalists
-- **[viking-marsrover-emulator](https://github.com/Zaneham/viking-marsrover-emulator)** - 1970s Mars lander. 40KB of RAM. Absolute unit
+- **[voyager-fds-emulator](https://github.com/Zaneham/voyager-fds-emulator)** - Voyager Flight Data Subsystem
+- **[minuteman-computer-emulator](https://github.com/Zaneham/minuteman-computer-emulator)** - Minuteman ICBM guidance computer
+- **[minuteman-assembler](https://github.com/Zaneham/minuteman-assembler)** - Assembler for the above
+- **[setun70-emulator](https://github.com/Zaneham/setun70-emulator)** - Soviet ternary computer
+- **[viking-marsrover-emulator](https://github.com/Zaneham/viking-marsrover-emulator)** - Viking Mars lander. 40KB of RAM
 
-### Fortran Modernisation
+## Fortran Modernisation
 
-Keeping scientific computing alive, one 50-year-old numerical library at a time:
+- **[SLATEC](https://github.com/Zaneham/SLATEC)** - Modernising the SLATEC numerical library
+- **[SLATEC.jl](https://github.com/Zaneham/SLATEC.jl)** - Julia port. Work in progress
+- **[dcuhre](https://github.com/Zaneham/dcuhre)** - Multi-dimensional adaptive integration
+- **[odepackzane](https://github.com/Zaneham/odepackzane)** - ODE solvers
 
-- **[SLATEC](https://github.com/Zaneham/SLATEC)** - Modernising the SLATEC library for modern Fortran
-- **[SLATEC.jl](https://github.com/Zaneham/SLATEC.jl)** - Julia port of SLATEC. Work in progress
-- **[dcuhre](https://github.com/Zaneham/dcuhre)** - Multi-dimensional adaptive integration. Riveting stuff
-- **[odepackzane](https://github.com/Zaneham/odepackzane)** - ODE solvers, now with fewer punch cards
+## Historical Languages
 
-### Historical Languages (Not Dead, Just Resting)
+- **[plankalkul-ide](https://github.com/Zaneham/plankalkul-ide)** - VS Code extension for Plankalkül with 2D grid editor. [On the Marketplace](https://marketplace.visualstudio.com/items?itemName=zaneham.plankalkul)
+- **[plankalkuel](https://github.com/Zaneham/plankalkuel)** - Python interpreter for Plankalkül
+- **[ppm](https://github.com/Zaneham/ppm)** - Plankalkül Package Manager
+- **[zuse-chess-1942](https://github.com/Zaneham/zuse-chess-1942)** - Zuse's 1942 chess program, reconstructed
+- **[flow-matic](https://github.com/Zaneham/flow-matic)** - Grace Hopper's FLOW-MATIC
 
-- **[plankalkul-ide](https://github.com/Zaneham/plankalkul-ide)** - VS Code extension for Plankalkül with 2D grid editor. **[On the Marketplace](https://marketplace.visualstudio.com/items?itemName=zaneham.plankalkul)**
-- **[plankalkuel](https://github.com/Zaneham/plankalkuel)** - Python interpreter for Plankalkül. The prototype that started this
-- **[ppm](https://github.com/Zaneham/ppm)** - Plankalkül Package Manager. Because even 1945 deserves nice things
-- **[zuse-chess-1942](https://github.com/Zaneham/zuse-chess-1942)** - Chess like it's 1941
-- **[flow-matic](https://github.com/Zaneham/flow-matic)** - Grace Hopper's business language. COBOL's mum, basically
-
-### Cryptography
+## Cryptography
 
 - **[KW-26-ROMULUS](https://github.com/Zaneham/KW-26-ROMULUS)** - KW-26 ROMULUS cryptographic equipment
 - **[dead-reckoning](https://github.com/Zaneham/dead-reckoning)** - Digital dead man's switch. Shamir secret sharing, duress codes, encrypted cargo
 
-### Other Bits
+## Other
 
-- **[hlasm-http](https://github.com/Zaneham/hlasm-http)** - HTTP client written in HLASM. Because mainframes deserve the internet too
-- **[My-todo-app](https://github.com/Zaneham/My-todo-app)** - Todo app in COBOL. Enterprise-grade task management
-- **[wu](https://github.com/Zaneham/wu)** - Media forensics toolkit. For legal and institutional teams
-- **[nistcobol85](https://github.com/z390development/nistcobol85)** - NIST COBOL 85 test suite. 11,000 test cases of pure joy
+- **[zkvs](https://github.com/Zaneham/zkvs)** - Database engine in HLASM. Sequential I/O working, B-tree indexing next
+- **[hlasm-http](https://github.com/Zaneham/hlasm-http)** - HTTP client in HLASM
+- **[My-todo-app](https://github.com/Zaneham/My-todo-app)** - Todo app in COBOL
+- **[wu](https://github.com/Zaneham/wu)** - Media forensics toolkit
+- **[nistcobol85](https://github.com/z390development/nistcobol85)** - NIST COBOL 85 test suite
 
 ---
-
-## Tech Stack
 
 ```
 Production:          Python, C, OCaml, Fortran, Java, Julia, various Assemblers
@@ -90,15 +83,12 @@ Compiler Internals:  OCaml backend (Lambda → CMM → Mach → asm), QEMU plugi
 Legacy/Preservation: COBOL, JOVIAL, CMS-2, CORAL 66, CHILL, MUMPS, PL/I, HAL/S, HLASM
 Emulated Hardware:   IBM System/360, Voyager FDS, Minuteman, Setun-70, Viking Lander
 Methodology:         Primary sources. Original manuals. Declassified documentation.
-                     If there's a spec, I read it. If there's a manuscript, I implement from it.
 ```
 
 ---
 
-## Contact
-
-Based in New Zealand. GMT+12/13. Already in your future.
+Based in New Zealand. GMT+12/13.
 
 **zanehambly@gmail.com**
 
-Available for contract work, collaboration, or just to chat. Can help with legacy systems modernisation, compiler development, safety-critical systems, and the occasional impossible project. Anyone got an internship lying around? 
+Available for contract work, collaboration, or conversation about legacy systems, compiler development, and safety-critical software. Also looking for an internship as part of my degree with AUT. Right to work in New Zealand, the UK, Australia, and the EU.
