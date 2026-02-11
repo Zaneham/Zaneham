@@ -25,7 +25,7 @@ IDE support for legacy languages:
 - **[cms2-lsp](https://github.com/Zaneham/cms2-lsp)** - CMS-2 (US Navy)
 - **[coral66-lsp](https://github.com/Zaneham/coral66-lsp)** - CORAL 66 (British MoD)
 - **[chill-lsp](https://github.com/Zaneham/chill-lsp)** - CHILL (ITU telecom)
-- **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F, HLASM
+- **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F
 - **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - MUMPS. Your hospital probably runs on it
 - **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM RACF security. In development
 
