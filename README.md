@@ -22,7 +22,7 @@ IDE support for legacy languages:
 
 - **[hals-lsp](https://github.com/Zaneham/hals-lsp)** - HAL/S (Space Shuttle)
 - **[jovial-lsp](https://github.com/Zaneham/jovial-lsp)** - JOVIAL (US Air Force)
-- **[cms2-lsp](https://github.com/Zaneham/cms2-lsp)** - CMS-2 (US Navy)
+- **[cms2-lsp]([[https://github.com/Zaneham/CMS-2-lsp])** - CMS-2 (US Navy)
 - **[coral66-lsp](https://github.com/Zaneham/coral66-lsp)** - CORAL 66 (British MoD)
 - **[chill-lsp](https://github.com/Zaneham/chill-lsp)** - CHILL (ITU telecom)
 - **[IBM-system-360-lsp](https://github.com/Zaneham/IBM-system360-LSP)** - COBOL F, PL/I F
