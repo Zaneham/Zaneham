@@ -33,7 +33,7 @@ IDE support for legacy languages:
 
 - **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator, written in assembly
 - **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants
-- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler
+- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler (On pause pending HALMAT work :-) ) 
 - **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler
 - **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C JOVIAL compiler, built from the original military spec
 - **[coral-66-compiler](https://github.com/Zaneham/Coral-66-Compiler-)** - Coral 66 compiler. Work in progress
