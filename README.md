@@ -37,7 +37,8 @@ IDE support for legacy languages:
 - **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler
 - **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C JOVIAL compiler, built from the original military spec
 - **[coral-66-compiler](https://github.com/Zaneham/Coral-66-Compiler-)** - Coral 66 compiler. Work in progress
-- **[BarraCUDA](https://github.com/Zaneham/BarraCUDA)** - Open-source CUDA compiler targeting AMD GPUs. 15k lines of C99, zero LLVM. Compiles .cu to GFX11 machine code
+- **[BarraCUDA](https://github.com/Zaneham/BarraCUDA)** - Open-source CUDA compiler targeting AMD GPUs. 15k lines of C99, zero LLVM. Compiles .cu to RDNA 2/3/4 machine code. BF16, shared memory, warp shuffles, atomics
+- **[Wasabi](https://github.com/Zaneham/Wasabi)** - WebAssembly to x86-64 AOT compiler. Zero dependencies, direct Wasm-to-native translation
 
 ## Emulators
 
