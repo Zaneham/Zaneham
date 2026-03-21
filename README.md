@@ -114,4 +114,4 @@ Based in New Zealand. GMT+12/13.
 
 **zanehambly@gmail.com**
 
-Available for contract work, collaboration, or conversation about legacy systems, compiler development, and safety-critical software. Also looking for an internship as part of my degree with AUT. Right to work in New Zealand, the UK, Australia, and the EU.
+Available for contract work, collaboration, or conversation about legacy systems, compiler development, and safety-critical software. Also looking for an internship as part of my degree with AUT (but it's optional, if you do interesting work feel free get in touch). Right to work in New Zealand, the UK, Australia, and the EU. Willing to relocate. 
