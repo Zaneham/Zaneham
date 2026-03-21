@@ -1,6 +1,6 @@
 # G'day, Kia Ora
 
-I'm Zane. I work on compilers, emulators, and tooling for systems that range from current to older than most countries. Currently contributing to the OCaml native compiler, resurrecting HALMAT and building a thread sanitiser for QEMU.
+I'm Zane. I work on compilers, emulators, and tooling for systems that range from current to older than most countries. Currently contributing to the OCaml native compiler, building GPU compilers, and synthesising historical computers onto silicon.
 
 Built in public. Some of this is preservation, some is practical.
 
@@ -11,10 +11,40 @@ Built in public. Some of this is preservation, some is practical.
 Upstream contributions to production compilers and runtimes:
 
 - **[OCaml](https://github.com/ocaml/ocaml)** - Native code compiler backend:
+  - [#14575](https://github.com/ocaml/ocaml/pull/14575) - Native `Iatomic_fetch_add` across all architectures (amd64, arm64, riscv, power, s390x)
+  - [#14547](https://github.com/ocaml/ocaml/pull/14547) - s390x GOT-indirect calls fix (merged)
   - [#14524](https://github.com/ocaml/ocaml/pull/14524) - Native `Iatomic_fetch_add` using s390x LAAG instruction
   - [#14515](https://github.com/ocaml/ocaml/pull/14515) - Intel CET/IBT support (`endbr64` landing pads)
 - **[z390](https://github.com/z390development/z390)** - IBM mainframe assembler/emulator. COBOL macro implementations, VSAM enhancements, NIST test suite work
+- **[tinygrad](https://github.com/tinygrad/tinygrad)** - RDNA2 emulator support for AMD GPU backend
 - **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan: binary-only data race detection using shadow memory and vector clocks
+
+## Compilers
+
+- **[BarraCUDA](https://github.com/Zaneham/BarraCUDA)** - Open-source CUDA compiler. Three backends: AMD (RDNA 2/3/4, CDNA3), NVIDIA (PTX), Tenstorrent. 20K+ lines of C99, zero LLVM. Full pipeline: preprocessor, parser, sema, SSA IR, mem2reg, regalloc, binary encoding, ELF emission
+- **[Karearea](https://github.com/Zaneham/Karearea)** - Fortran 77 compiler. 259/259 tests, 735/735 SLATEC files compile. PE-COFF and ELF output. C99, zero dependencies
+- **[Wasabi](https://github.com/Zaneham/Wasabi)** - WebAssembly to x86-64 AOT compiler. Direct Wasm-to-native, zero dependencies
+- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C JOVIAL compiler, built from the original military spec
+- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator, written in assembly
+- **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants
+- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler (on pause pending HALMAT work)
+- **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler
+- **[coral-66-compiler](https://github.com/Zaneham/Coral-66-Compiler-)** - Coral 66 compiler. Work in progress
+
+## Scientific Computing
+
+- **[Moa](https://github.com/Zaneham/Moa)** - Monte Carlo neutron transport code. C99, GPU-accelerated via BarraCUDA. Runs on RTX 4060 Ti (422K particles/sec) and MI300X
+- **[SLATEC](https://github.com/Zaneham/SLATEC)** - Modernising the SLATEC numerical library
+- **[dcuhre](https://github.com/Zaneham/dcuhre)** - Multi-dimensional adaptive integration
+- **[odepackzane](https://github.com/Zaneham/odepackzane)** - ODE solvers
+
+## Chip Design
+
+Synthesised to SKY130 130nm. Place and route via OpenROAD.
+
+- **[voyager-fds](https://github.com/ZaneHam/voyager-fds)** - JPL flight computer. The computer leaving the solar system. 58 gates, fabrication-ready
+- **[ruru](https://github.com/ZaneHam/ruru)** - Probabilistic processor. Distributions as a native data type. PFUSE, POBS, PCMP instructions. 2,237 gates
+- **[qsim](https://github.com/ZaneHam/qsim)** - 8-qubit quantum gate simulator on silicon. 238 gates, 200 MHz
 
 ## Language Server Protocols
 
@@ -29,17 +59,6 @@ IDE support for legacy languages:
 - **[mumps-lsp](https://github.com/Zaneham/mumps-lsp)** - MUMPS. Your hospital probably runs on it
 - **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM RACF security. In development
 
-## Compilers and Translators
-
-- **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator, written in assembly
-- **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - OCaml compiler for Zuse's 1945 Plankalkül. 2D notation, all 7 loop variants
-- **[hal-s-compiler](https://github.com/Zaneham/hal-s-compiler)** - HAL/S compiler (On pause pending HALMAT work :-) ) 
-- **[chill-compiler](https://github.com/Zaneham/chill-compiler)** - CHILL to C transpiler
-- **[jovial-compiler](https://github.com/Zaneham/skyhawk)** - MIL-STD-1589C JOVIAL compiler, built from the original military spec
-- **[coral-66-compiler](https://github.com/Zaneham/Coral-66-Compiler-)** - Coral 66 compiler. Work in progress
-- **[BarraCUDA](https://github.com/Zaneham/BarraCUDA)** - Open-source CUDA compiler targeting AMD GPUs. 15k lines of C99, zero LLVM. Compiles .cu to RDNA 2/3/4 machine code. BF16, shared memory, warp shuffles, atomics
-- **[Wasabi](https://github.com/Zaneham/Wasabi)** - WebAssembly to x86-64 AOT compiler. Zero dependencies, direct Wasm-to-native translation
-
 ## Emulators
 
 - **[voyager-fds-emulator](https://github.com/Zaneham/voyager-fds-emulator)** - Voyager Flight Data Subsystem
@@ -48,12 +67,10 @@ IDE support for legacy languages:
 - **[setun70-emulator](https://github.com/Zaneham/setun70-emulator)** - Soviet ternary computer
 - **[viking-marsrover-emulator](https://github.com/Zaneham/viking-marsrover-emulator)** - Viking Mars lander. 40KB of RAM
 
-## Fortran Modernisation
+## Developer Tools
 
-- **[SLATEC](https://github.com/Zaneham/SLATEC)** - Modernising the SLATEC numerical library
-- **[SLATEC.jl](https://github.com/Zaneham/SLATEC.jl)** - Julia port. Work in progress
-- **[dcuhre](https://github.com/Zaneham/dcuhre)** - Multi-dimensional adaptive integration
-- **[odepackzane](https://github.com/Zaneham/odepackzane)** - ODE solvers
+- **[Olint](https://github.com/Zaneham/Olint)** - OCaml linter with auto-fix. Think clippy for OCaml
+- **[Halmat](https://github.com/Zaneham/Halmat)** - Resurrecting the HAL/S compiler intermediate language
 
 ## Historical Languages
 
@@ -68,20 +85,25 @@ IDE support for legacy languages:
 - **[KW-26-ROMULUS](https://github.com/Zaneham/KW-26-ROMULUS)** - KW-26 ROMULUS cryptographic equipment
 - **[dead-reckoning](https://github.com/Zaneham/dead-reckoning)** - Digital dead man's switch. Shamir secret sharing, duress codes, encrypted cargo
 
-## Other
+## Mainframe
 
-- **[zkvs](https://github.com/Zaneham/zkvs)** - Database engine in HLASM. Sequential I/O working, B-tree indexing next
+- **[zblas](https://github.com/Zaneham/zblas)** - z/OS native BLAS in HLASM. z13+ vector SIMD, dual calling conventions
+- **[hlasm-strong-type](https://github.com/Zaneham/hlasm-strong-type)** - VS Code LSP with type checking for registers, labels, and macros
+- **[hlasm-npp](https://github.com/Zaneham/hlasm-npp)** - Column-aware syntax highlighting for Notepad++
+- **[racf-lsp](https://github.com/Zaneham/racf-lsp)** - IBM mainframe security commands. VS Code integration
+- **[z390](https://github.com/z390development/z390)** - IBM mainframe emulator. Core contributor
+- **[zkvs](https://github.com/Zaneham/zkvs)** - Database engine in HLASM
 - **[hlasm-http](https://github.com/Zaneham/hlasm-http)** - HTTP client in HLASM
 - **[My-todo-app](https://github.com/Zaneham/My-todo-app)** - Todo app in COBOL
-- **[wu](https://github.com/Zaneham/wu)** - Media forensics toolkit
-- **[nistcobol85](https://github.com/z390development/nistcobol85)** - NIST COBOL 85 test suite
 
 ---
 
 ```
 Production:          Python, C, OCaml, Fortran, Java, Julia, various Assemblers
 Compiler Internals:  OCaml backend (Lambda → CMM → Mach → asm), QEMU plugin API
+GPU:                 AMD GFX9-12 ISA, NVIDIA PTX, HSA runtime, ELF/HSACO
 Legacy/Preservation: COBOL, JOVIAL, CMS-2, CORAL 66, CHILL, MUMPS, PL/I, HAL/S, HLASM
+Chip Design:         SystemVerilog, SKY130 130nm, OpenROAD, Liberty timing
 Emulated Hardware:   IBM System/360, Voyager FDS, Minuteman, Setun-70, Viking Lander
 Methodology:         Primary sources. Original manuals. Declassified documentation.
 ```
@@ -92,4 +114,4 @@ Based in New Zealand. GMT+12/13.
 
 **zanehambly@gmail.com**
 
-Available for contract work, collaboration, or conversation about legacy systems, compiler development, and safety-critical software.
+Available for contract work, collaboration, or conversation about legacy systems, compiler development, and safety-critical software. Also looking for an internship as part of my degree with AUT. Right to work in New Zealand, the UK, Australia, and the EU.
