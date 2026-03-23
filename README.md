@@ -8,7 +8,7 @@ Everything is built from primary sources, original manuals, and the occasional d
 
 ## Highlights
 
-**[Takahe](https://github.com/Zaneham/Takahe)** - Open-source digital synthesis tool that takes SystemVerilog and VHDL down to gate-level netlists targeting four open PDKs (SKY130 130nm, IHP SG13G2, GF180MCU, ASAP7 7nm). 11,000 lines of C99 with zero dependencies and 58 tests passing, supporting thirteen computing paradigms including ternary, quantum, and probabilistic architectures. Place and route through OpenROAD
+**[Takahe](https://github.com/Zaneham/Takahe)** - Open-source digital synthesis tool that takes SystemVerilog and VHDL down to gate-level netlists targeting four open PDKs (SKY130 130nm, IHP SG13G2, GF180MCU, ASAP7 7nm). Supporting thirteen computing paradigms including ternary, quantum, and probabilistic architectures. Place and route through OpenROAD
 
 **[BarraCUDA](https://github.com/Zaneham/BarraCUDA)** - Open-source CUDA compiler with three backends: AMD (RDNA 2/3/4, CDNA3), NVIDIA (PTX), and Tenstorrent Tensix. First CUDA compiled and running on Tenstorrent's non-SIMT RISC-V dataflow architecture. 20K+ lines of C99 with zero LLVM dependency, covering the full pipeline from preprocessor through to ELF emission
 
