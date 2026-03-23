@@ -100,4 +100,4 @@ Based in New Zealand, GMT+12/13
 
 This is a hobby, not a job search. My day job is in finance. I build this stuff because I find it interesting, and I'm happy to collaborate with anyone who feels the same way. That said, if the right opportunity came along I wouldn't turn it down. I do take contract work from time to time, and I have an optional internship component as part of my degree at AUT if anything lines up, but none of that is why any of this exists. 
 
-If by any chance you work in the charity space and need help please feel free to reach out. I actively volunteer my expertise to a few charities. 
+If by any chance you work in the charity space and need help please feel free to reach out. I actively volunteer my expertise to a few organisations. 
