@@ -1,6 +1,6 @@
 # G'day, Kia Ora
 
-I'm Zane, a self-taught developer based in New Zealand. I work on compilers, chip design tools, and GPU software, mostly in C99 with zero dependencies. Currently building a CUDA compiler that targets AMD and Tenstorrent hardware, and synthesising processors onto silicon with my own synthesis tool.
+I'm Zane, a self-taught developer based in New Zealand. I work on compilers, chip design tools, and GPU software, mostly in C99 with zero dependencies. I also work on Mainframes, everything from Hlasm to Algol. Currently building a CUDA compiler that targets AMD and Tenstorrent hardware, and synthesising processors onto silicon with my own synthesis tool.
 
 Everything is built from primary sources, original manuals, and the occasional declassified document.
 
