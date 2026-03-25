@@ -4,6 +4,8 @@ I'm Zane, a self-taught developer based in New Zealand. I work on compilers, chi
 
 Everything is built from primary sources, original manuals, and the occasional declassified document.
 
+If you'd like to see my write ups on some of these projects my website is zanehambly.com
+
 ---
 
 ## Highlights
