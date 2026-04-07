@@ -31,7 +31,7 @@ Synthesised with Takahe to open PDKs, place and route via OpenROAD
 ## Compilers
 
 - **[Karearea](https://github.com/Zaneham/Karearea)** - Fortran 77 compiler passing 259/259 tests and compiling all 735 SLATEC files, with PE-COFF and ELF output in C99 with zero dependencies
-- **[jovial-compiler](https://github.com/Zaneham/jovial-compiler)** - MIL-STD-1589C JOVIAL compiler built from the original military spec
+- **[jovial-compiler](https://github.com/Zaneham/skyhawk)** - MIL-STD-1589C JOVIAL compiler built from the original military spec
 - **[Wasabi](https://github.com/Zaneham/Wasabi)** - WebAssembly to x86-64 AOT compiler with zero dependencies
 - **[conway](https://github.com/Zaneham/conway)** - RISC-V to x86-64 binary translator written in assembly
 - **[plankalkul-compiler](https://github.com/Zaneham/plankalkul-compiler)** - Compiler for Zuse's 1945 Plankalkül with 2D notation and all 7 loop variants
