@@ -41,7 +41,9 @@ Synthesised with Takahe to open PDKs, place and route via OpenROAD
 
 ## Upstream Contributions
 
-- **[OCaml](https://github.com/ocaml/ocaml)** - Occasional contributor to the native code compiler backend: [#14575](https://github.com/ocaml/ocaml/pull/14575), [#14547](https://github.com/ocaml/ocaml/pull/14547), [#14524](https://github.com/ocaml/ocaml/pull/14524), [#14515](https://github.com/ocaml/ocaml/pull/14515)
+- **[OCaml](https://github.com/ocaml/ocaml)** - Occasional contributor to the native code compiler backend. Native atomics across all five architectures: [#14575](https://github.com/ocaml/ocaml/pull/14575), [#14980](https://github.com/ocaml/ocaml/pull/14980). s390x GOT-indirect calls: [#14547](https://github.com/ocaml/ocaml/pull/14547). Also [#14515](https://github.com/ocaml/ocaml/pull/14515)
+- **[LLVM](https://github.com/llvm/llvm-project)** - X86 backend: [#212803](https://github.com/llvm/llvm-project/pull/212803) stops personality info being emitted when the personality is not a function, [#212417](https://github.com/llvm/llvm-project/pull/212417) applies the data32 mode switch in the Intel matcher
+- **[LFortran](https://github.com/lfortran/lfortran)** - Legacy F77 `iargc` and `getarg` aliases: [#11679](https://github.com/lfortran/lfortran/pull/11679)
 - **[z390](https://github.com/z390development/z390)** - Core contributor to the IBM mainframe assembler/emulator, including COBOL macros, VSAM enhancements, and NIST test suite work
 - **[tinygrad](https://github.com/tinygrad/tinygrad)** - RDNA2 emulator support for the AMD GPU backend
 - **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan for binary-only data race detection using shadow memory and vector clocks
