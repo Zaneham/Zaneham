@@ -6,6 +6,8 @@ Everything is built from primary sources, original manuals, and the occasional d
 
 If you'd like to see my write ups on some of these projects my website is [zanehambly.com](https://zanehambly.com)
 
+I like to be as transparent as possible in how I work. If you'd like to see my notes, assembly dumps and a mismatch of human and generated tests feel free to visit [bits and bobs](https://github.com/ZaneHam/bits-and-bobs)
+
 ---
 
 ## Highlights
@@ -76,13 +78,13 @@ IDE support for languages that predate syntax highlighting:
 - **[plankalkul-ide](https://github.com/Zaneham/plankalkul-ide)** - VS Code extension with a 2D grid editor, [on the Marketplace](https://marketplace.visualstudio.com/items?itemName=zaneham.plankalkul)
 - **[KW-26 ROMULUS](https://github.com/Zaneham/KW-26-ROMULUS)** - Cold War cryptographic equipment reconstructed from declassified documents
 - **[dead-reckoning](https://github.com/Zaneham/dead-reckoning)** - Digital dead man's switch with Shamir secret sharing and duress codes
+- **[Halmat](https://github.com/Zaneham/Halmat)** - Resurrecting the HAL/S compiler intermediate language
 
 [Plankalkül interpreter](https://github.com/Zaneham/plankalkuel) · [Plankalkül package manager](https://github.com/Zaneham/ppm) · [Zuse's 1942 chess program](https://github.com/Zaneham/zuse-chess-1942) · [FLOW-MATIC](https://github.com/Zaneham/flow-matic)
 
 ## Developer Tools
 
 - **[Olint](https://github.com/Zaneham/Olint)** - OCaml linter with auto-fix, think clippy for OCaml
-- **[Halmat](https://github.com/Zaneham/Halmat)** - Resurrecting the HAL/S compiler intermediate language
 
 ---
 
