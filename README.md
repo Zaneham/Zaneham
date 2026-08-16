@@ -17,7 +17,6 @@ I like to be as transparent as possible in how I work. If you'd like to see my n
 - **[LFortran](https://github.com/lfortran/lfortran)** - Legacy F77 `iargc` and `getarg` aliases: [#11679](https://github.com/lfortran/lfortran/pull/11679)
 - **FFmpeg** - AVX2 for 10-bit H.264 pred16x16 intra prediction. 1.17x to 1.53x over SSE2 on Zen3, and 9.18x on the plane function, checkasm bit-exact. [Submitted to ffmpeg-devel](http://www.mail-archive.com/ffmpeg-devel@ffmpeg.org/msg186913.html), under review
 - **[z390](https://github.com/z390development/z390)** - Core contributor to the IBM mainframe assembler/emulator, including COBOL macros, VSAM enhancements, and NIST test suite work
-- **[qemu-zane](https://github.com/Zaneham/qemu-zane)** - QEMU fork adding QTSan for binary-only data race detection using shadow memory and vector clocks
 
 ---
 
