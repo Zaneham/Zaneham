@@ -24,15 +24,17 @@ Everything I've sent upstream is [in one search](https://github.com/search?q=aut
 
 ## Key Projects
 
-**[Takahe](https://github.com/Zaneham/Takahe)** - Open-source digital synthesis tool. SystemVerilog, VHDL and ABEL-HDL down to gate-level netlists, targeting four open PDKs (SKY130 130nm, IHP SG13G2, GF180MCU, ASAP7 7nm) and the 74LS series, where area is counted in packages rather than micrometres. Reads JEDEC fuse maps off old PLDs. Thirteen computing paradigms including ternary, quantum and probabilistic. Place and route through OpenROAD
+**[Booth](https://github.com/Zaneham/Booth)** - GPU compiler. CUDA, HIP and Triton in, AMD, NVIDIA, Tenstorrent and plain CPUs out, so GPU code runs on machines with no GPU. Zero LLVM, binary is `kath`, after Kathleen Booth
 
-**[Booth](https://github.com/Zaneham/Booth)** - Open-source GPU compiler. Takes CUDA, HIP and Triton and targets AMD (RDNA 2/3/4, CDNA3), NVIDIA PTX, Tenstorrent Tensix, or native x86-64/RV64 so GPU code runs on machines with no GPU. First CUDA compiled and running on Tenstorrent's non-SIMT RISC-V dataflow architecture. Fortran and OCaml frontends underway. Zero LLVM, own pipeline from preprocessor through to ELF emission. Binary is `kath`, after Kathleen Booth
+**[Takahe](https://github.com/Zaneham/Takahe)** - Digital synthesis tool. SystemVerilog, VHDL and ABEL-HDL down to gates on four open PDKs and the 74LS series, where area is counted in packages rather than micrometres
 
-**[Moa](https://github.com/Zaneham/Moa)** - Monte Carlo neutron transport. Neutrons are tracked one at a time through constructive solid geometry against ENDF/B-VII.1 cross sections, with resonance reconstruction and unresolved resonance probability tables. Validated on the Godiva, Jezebel and Flattop criticality benchmarks, and GPU-accelerated via Booth, so the kernel compiles with no NVCC anywhere near it and runs on an RTX 4060 Ti and an MI300X. Prebuilt binaries for Linux, Windows and macOS
+**[Voyager FDS](https://github.com/Zaneham/voyager-fds-emulator)** - Emulator for the computer that's leaving the solar system, built from documentation tracked down at Wichita State University, since the machine itself is 24 billion kilometres away and cannot be consulted. Also synthesised to SKY130 in 58 cells
 
-**[Voyager FDS](https://github.com/Zaneham/voyager-fds-emulator)** - Emulator for the Voyager Flight Data Subsystem, the computer that's leaving the solar system. Built from documentation tracked down at Wichita State University, since the machine itself is 24 billion kilometres away and cannot be consulted. The same design has been synthesised to SKY130 silicon in 58 cells, so it runs as software and as a chip
+**[Moa](https://github.com/Zaneham/Moa)** - Monte Carlo neutron transport. I'm not an actual nuclear scientist, I just read the papers and there was enough example code lying around. Validated on the Godiva, Jezebel and Flattop benchmarks anyway
 
-**[Halmat](https://github.com/Zaneham/Halmat)** - A reconstructed specification of HALMAT, the intermediate language every line of Shuttle flight software passed through on its way to object code. Nobody documented it, so the reconstruction came from writing a PL/I F parser in OCaml and pointing it at 630 source files of a compiler last touched in the 1990s, written in a language from 1969, targeting hardware from 1964. The grammar is a hypothesis and Menhir is the interrogator, because every conflict the parser generator reports is the language telling you where its real edges are
+**[Halmat](https://github.com/Zaneham/Halmat)** - A reconstructed spec of the intermediate language every line of Shuttle flight software passed through. Nobody documented it, so the grammar is a hypothesis and Menhir is the interrogator
+
+**[Reeve](https://github.com/Zaneham/reeve)** - Slatec and some LAPACK for good measure in OCaml ported from the original Fortran. Validated against it too because my brain doesn't work when a bessel function looks at me funny
 
 ---
 
