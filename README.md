@@ -1,6 +1,6 @@
 # G'day, Kia Ora
 
-I'm Zane, a self-taught developer based in New Zealand. I work on compilers, chip design tools, and GPU software, mostly in C99 (with a minimalist flair). I also work on mainframes, everything from HLASM to Algol. Currently building a CUDA compiler that targets AMD and Tenstorrent hardware, and synthesising processors onto silicon with my own synthesis tool.
+I'm Zane, from NZ. I like me a bevvy and a splash of assembler. I usually dabble with computers several years older than me and occasionally I produce something quite useful.
 
 Everything is built from primary sources, original manuals, and the occasional declassified document.
 
@@ -12,11 +12,13 @@ I like to be as transparent as possible in how I work. If you'd like to see my n
 
 ## Upstream Contributions
 
-- **[OCaml](https://github.com/ocaml/ocaml)** - Occasional contributor to the native code compiler backend. Native atomics across all five architectures: [#14575](https://github.com/ocaml/ocaml/pull/14575), [#14980](https://github.com/ocaml/ocaml/pull/14980). s390x GOT-indirect calls: [#14547](https://github.com/ocaml/ocaml/pull/14547). Also [#14515](https://github.com/ocaml/ocaml/pull/14515)
-- **[LLVM](https://github.com/llvm/llvm-project)** - X86 backend and MC layer: [#212417](https://github.com/llvm/llvm-project/pull/212417) applies the data32 mode switch in the Intel matcher, [#212803](https://github.com/llvm/llvm-project/pull/212803) stops personality info being emitted when the personality is not a function, [#213171](https://github.com/llvm/llvm-project/pull/213171) and [#213172](https://github.com/llvm/llvm-project/pull/213172) stop the encoder assuming a symbolic immediate is a literal
-- **[LFortran](https://github.com/lfortran/lfortran)** - Legacy F77 `iargc` and `getarg` aliases: [#11679](https://github.com/lfortran/lfortran/pull/11679)
-- **FFmpeg** - AVX2 for 10-bit H.264 pred16x16 intra prediction. 1.17x to 1.53x over SSE2 on Zen3, and 9.18x on the plane function, checkasm bit-exact. [Submitted to ffmpeg-devel](http://www.mail-archive.com/ffmpeg-devel@ffmpeg.org/msg186913.html), under review
-- **[z390](https://github.com/z390development/z390)** - Core contributor to the IBM mainframe assembler/emulator, including COBOL macros, VSAM enhancements, and NIST test suite work
+Everything I've sent upstream is [in one search](https://github.com/search?q=author%3AZaneham+is%3Apr+-user%3AZaneham&type=pullrequests&s=created&o=desc).
+
+- **[OCaml](https://github.com/ocaml/ocaml/pulls?q=is%3Apr+author%3AZaneham)** - Native code compiler backend. Atomics across all five architectures, square root, fused multiply-add, rounding and bit counting as single instructions, and bulk operations on float arrays
+- **[LLVM](https://github.com/llvm/llvm-project/pulls?q=is%3Apr+author%3AZaneham)** - X86 backend and MC layer, mostly the Intel syntax matcher and the encoder
+- **[LFortran](https://github.com/lfortran/lfortran/pulls?q=is%3Apr+author%3AZaneham)** - Legacy F77 intrinsics and GPU offloading for `do concurrent`
+- **[Solo5](https://github.com/Solo5/solo5/pulls?q=is%3Apr+author%3AZaneham)** - riscv64 support for the spt target
+- **[z390](https://github.com/z390development/z390/pulls?q=is%3Apr+author%3AZaneham)** - Core contributor to the IBM mainframe assembler/emulator, including COBOL macros, VSAM enhancements, and NIST test suite work
 
 ---
 
@@ -34,24 +36,11 @@ I like to be as transparent as possible in how I work. If you'd like to see my n
 
 ---
 
-## Skills
-
-```
-Languages     C99, OCaml, Fortran, HLASM, COBOL, TAL/TACL, Python
-Compilers     OCaml native backend (Lambda -> CMM -> Mach -> asm), LLVM X86
-              backend and MC layer, own pipelines from lexer through to ELF
-GPU           AMD GFX9-12 ISA, NVIDIA PTX, Tenstorrent Tensix, HSA runtime
-Silicon       SystemVerilog, VHDL, SKY130, IHP SG13G2, GF180MCU, ASAP7,
-              OpenROAD, formal equivalence checking and fault injection
-Mainframe     z/OS, HLASM, zCOBOL, Tandem NonStop (TACL, TAL)
-Preservation  JOVIAL, CMS-2, CORAL 66, CHILL, MUMPS, PL/I, HAL/S, Plankalkul
-```
-
----
-
 Based in New Zealand, GMT+12/13
 
 **zanehambly@gmail.com**
+
+My profile picture for the next wee while is not me, I'm not nearly as handsome, it's Barry, 63. [knowyourmeme.com/memes/barry-63](https://knowyourmeme.com/memes/barry-63)
 
 ---
 
